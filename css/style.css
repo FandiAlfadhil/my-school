@@ -167,7 +167,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #76c893;
+  background-color: #190734;
   margin: 7px 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -351,7 +351,7 @@ a:focus {
 }
 
 .service_section .service_container .box .detail-box h5 {
-  color: #76c893;
+  color: #2e0e5f;
   font-weight: 600;
   position: relative;
 }
@@ -499,19 +499,19 @@ a:focus {
 }
 
 .contact_section input::-webkit-input-placeholder {
-  color: #76c893;
+  color: #737272;
 }
 
 .contact_section input:-ms-input-placeholder {
-  color: #76c893;
+  color: #737272;
 }
 
 .contact_section input::-ms-input-placeholder {
-  color: #76c893;
+  color: #737272;
 }
 
 .contact_section input::placeholder {
-  color: #76c893;
+  color: #737272;
 }
 
 .contact_section input.message-box {
@@ -647,7 +647,7 @@ a:focus {
 }
 
 .info_section .info_form form button:hover {
-  background-color: #52b69a;
+  background-color: #5625a1;
 }
 
 .info_section .box {
