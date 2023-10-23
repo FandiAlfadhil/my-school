@@ -44,7 +44,7 @@
       <!-- Style customizer (Remove these two lines please) -->
       <link rel="stylesheet" href="css/color-19.css" data-style="styles">
       <link rel="stylesheet" href="css/style-customizer.css">
-	  <link rel="stylesheet" href="css/style1">
+	  <link rel="stylesheet" href="css/style1.css">
    <style type="text/css" id="jarallax-clip-0">#jarallax-container-0 {
            clip: rect(0 1349px 705px 0);
            clip: rect(0, 1349px, 705px, 0);
@@ -106,6 +106,7 @@
 						   <li><a href="service.html">Jurusan</a></li>
                            <li><a href="blog.html">Blog</a></li>
                            <li><a href="contact.html">Kontak</a></li>
+						   <li><a href="galery.hrml">Galeri</a></li>
                         </ul>
                      </div>
                   </div>
@@ -172,81 +173,91 @@
 
   <!-- info section -->
 
-  <section class="info_section layout_padding">
-    <div class="container">
-      <div class="info_contact">
-        <div class="row">
-          <div class="col-md-4">
-            <a href="https://maps.app.goo.gl/cCkZndQEhSnVroQK8">
-              <img src="images/location-white.png" alt="">
-              <span>
-                 Jln. Nanjung Kp. Panyaweuyan RT.02/13 Kel. Utama Kec. Cimahi Selatan Kota Cimahi 40533
-              </span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="http://wa.me/6283174871460">
-              <img src="images/telephone-white.png" alt="">
-              <span>
-                 Call : (+62)831-7487-1460
-              </span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="mailto:mailto:info@smkplusdarussurur.sch.id">
-              <img src="images/envelope-white.png" alt="">
-              <span>
-                info@smkplusdarussurur.sch.id
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-lg-9">
-          <div class="info_form">
-            <form action="">
-              <input type="text" placeholder="Enter your email">
-              <button>
-                subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-3">
-          <div class="info_social">
-            <div>
-              <a href="http://wa.me/6283174871460">
-                <ion-icon name="logo-whatsapp" size="large" alt=""></ion-icon>
-				<style>
-				ion-icon {
-				color: white;
-				padding: 5px;
-				}
-				</style>
-              </a>
+  <section id="iq-contact" class="get-in-touch-tab iq-footer22 grey-bg">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-sm-12 iq-pall">
+                     <div class="tab-bottom">
+                        <div class="tab clearfix text-center">
+                           <!-- Nav tabs -->
+                           <ul class="nav nav-pills iq-mt-40" id="pills-tab" role="tablist">
+                              <li class="nav-item">
+                                 <a class="nav-link active" id="info-tab" data-toggle="pill" href="https://templates.iqonic.design/qwilo/html/qwilo-one-page/classic-1.html#info" role="tab" aria-controls="info" aria-selected="true">Contact Info</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" id="map-tab" data-toggle="pill" href="https://templates.iqonic.design/qwilo/html/qwilo-one-page/classic-1.html#map" role="tab" aria-controls="map" aria-selected="false">Map</a>
+                              </li>
+                           </ul>
+                           <!-- Tab panes -->
+                           <div class="tab-content iq-mt-20 iq-bg jarallax" id="pills-tabContent" style="background-image: none;" data-jarallax-original-styles="background-image:url(images/bg/02.jpg);">
+                              <div class="tab-pane fade active show iq-bg overview-block-ptb iq-bg-fixed iq-over-black-80" id="info" role="tabpanel" aria-labelledby="map-tab">
+                                 <div class="container">
+                                    <div class="row no-gutter text-left">
+                                       <div class="col-lg-6 col-md-12 white-bg ">
+                                          <div class="iq-pall-30">
+                                             <h4 class="small-title green iq-tw-6 iq-mb-20">Contact Form</h4>
+                                             <form class="form-horizontal iq-mt-20" id="contactform" method="post" action="https://templates.iqonic.design/qwilo/html/qwilo-one-page/php/contact-form.php">
+                                                <div class="section-field iq-mb-20">
+                                                   <input id="name" placeholder="Name*" name="name" type="text">
+                                                </div>
+                                                <div class="section-field iq-mb-20">
+                                                   <input placeholder="Email*" name="email" type="email">
+                                                </div>
+                                                <div class="section-field iq-mb-20">
+                                                   <input placeholder="Phone*" name="phone" type="text">
+                                                </div>
+                                                <div class="section-field textarea iq-mb-20">
+                                                   <textarea class="input-message" placeholder="Comment*" rows="3" name="message"></textarea>
+                                                </div>
+                                                <input name="action" value="sendEmail" type="hidden">
+                                                <button id="submit" name="submit" type="submit" value="Send" class="button">Send your message</button>
+                                             </form>
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-6 col-md-12 dark-bg iq-plr-30 iq-pt-50 iq-pb-50">
+                                          <div class="contect-box">
+                                             <div class="contact-item">
+                                                <div class="icon"><ion-icon name="location" size="large" alt=""></ion-icon> </div>
+                                                <div class="content">
+                                                   <h6 class="iq-tw-6 iq-font-green">Alamat</h6>
+                                                   <div class="iq-tw-6 iq-font-white">Jln. Nanjung Kp. Panyaweuyan RT 02/13 Kel. Utama 
+                                                      <br> Kec. Cimahi Selatan, Kota Cimahi 40533
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="contact-item">
+                                                <div class="icon"> <ion-icon name="call-outline" size="large" alt=""></ion-icon> </div>
+                                                <div class="content">
+                                                   <h6 class="iq-tw-6 iq-font-green">Telepon</h6>
+                                                   <div class="iq-tw-6 iq-font-white">(022) 667 1469
+                                                      <br> 0831-7487-1460 (WA)
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="contact-item">
+                                                <div class="icon"> <ion-icon name="mail-outline" size="large" alt="" color="white"></ion-icon> </div>
+                                                <div class="content">
+                                                   <h6 class="iq-tw-6 iq-font-green">E-Mail</h6>
+                                                   <div class="iq-tw-6 iq-font-white">smkplus.darussurur@yahoo.com</div>
+                                                   <div class="iq-tw-6 iq-font-white">info@smkplusdarussurur.sch.id</div>
+                                                </div>
+                                             </div>
+                                             <div class="clearfix"></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tab-pane fade" id="map" role="tabpanel" aria-labelledby="map-tab">
+                                 <iframe src="embed.html"></iframe>
+                              </div>
+                           <div id="jarallax-container-4" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://templates.iqonic.design/qwilo/html/qwilo-one-page/images/bg/02.jpg&quot;); position: fixed; top: 0px; left: 0px; width: 1349px; height: 652.8px; overflow: hidden; pointer-events: none; margin-top: -0.9px; transform: translate3d(0px, 1663.17px, 0px);"></div></div></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div>
-              <a href="mailto:mailto:info@smkplusdarussurur.sch.id">
-                <ion-icon name="mail-outline" size="large" alt=""></ion-icon>
-              </a>
-            </div>
-            <div>
-              <a href="tel:tel:62226671469">
-                <ion-icon name="call-outline" size="large" alt=""></ion-icon>
-              </a>
-            </div>
-            <div>
-              <a href="https://www.instagram.com/smkdarussurur_official">
-                <ion-icon name="logo-instagram" size="large" alt=""></ion-icon>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
+         </section>
 
   <!-- end info section -->
 

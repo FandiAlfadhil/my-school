@@ -467,7 +467,7 @@ Text Decoration:
 Background Color 
 -----------------------------------------------------------------------*/
 .white-bg { background: #ffffff; }
-.dark-bg { background: #222222; }
+.dark-bg { background: #495057; }
 .grey-bg { background: #f6f6f6; }
 .green-bg { background: #02d871; }
 .black-bg { background: #000000; }
@@ -2275,7 +2275,7 @@ Footer 8
 /*************************
 Footer 9
 *************************/
-.iq-footer9.dark-bg { background: #222222; }
+.iq-footer9.dark-bg { background: #495057; }
 .iq-footer9 .black-bg { background: #242424; }
 .iq-footer9 img { width: 300px; }
 
