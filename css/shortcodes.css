@@ -1762,9 +1762,9 @@ Testimonial 2
 Testimonial 4
 *************************/
 .iq-testimonial4 .owl-carousel.owl-theme .owl-dots { margin-top: 20px; }
-.iq-testimonial4 .owl-carousel.owl-theme .owl-dots .owl-dot span { position: relative; width: 60px; height: 60px; border-radius: 50%; border: 4px solid #ccc; background: url("../images/team/small/01.jpg") no-repeat 0 0 !important; background-size: cover !important; transition: all 0.3s ease-in-out 0s; }
-.iq-testimonial4 .owl-carousel.owl-theme .owl-dots .owl-dot:nth-child(2) span { background: url("../images/team/small/02.jpg") no-repeat 0 0 !important; background-size: cover !important; }
-.iq-testimonial4 .owl-carousel.owl-theme .owl-dots .owl-dot:nth-child(3) span { background: url("../images/team/small/03.jpg") no-repeat 0 0 !important; background-size: cover !important; }
+.iq-testimonial4 .owl-carousel.owl-theme .owl-dots .owl-dot span { position: relative; width: 60px; height: 60px; border-radius: 50%; border: 4px solid #ccc; background: url(https://templates.iqonic.design/qwilo/html/qwilo-one-page/images/team/small/01.jpg) no-repeat 0 0 !important; background-size: cover !important; transition: all 0.3s ease-in-out 0s; }
+.iq-testimonial4 .owl-carousel.owl-theme .owl-dots .owl-dot:nth-child(2) span { background: url(https://templates.iqonic.design/qwilo/html/qwilo-one-page/images/team/small/02.jpg) no-repeat 0 0 !important; background-size: cover !important; }
+.iq-testimonial4 .owl-carousel.owl-theme .owl-dots .owl-dot:nth-child(3) span { background: url(https://templates.iqonic.design/qwilo/html/qwilo-one-page/images/team/small/03.jpg) no-repeat 0 0 !important; background-size: cover !important; }
 .iq-testimonial4 .owl-carousel.owl-theme .owl-dots .owl-dot.active span { border: 4px solid #02d871; width: 60px; }
 .iq-testimonial4 .owl-carousel .owl-dots { text-align: left; }
 .iq-testimonial4 .owl-carousel .owl-item { background: #02d871; color: #fff; padding: 30px; border-radius: 4px; }
